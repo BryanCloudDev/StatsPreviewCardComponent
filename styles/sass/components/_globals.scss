@@ -4,7 +4,7 @@ $primaryColor: hsl(233, 47%, 7%); //(main background)
 $secondaryColor: hsl(244, 38%, 16%); // (card background)
 $thirdColor: hsl(277, 64%, 61%); //(accent)
 $fourthColor: hsl(0, 0%, 100%); //(main heading, stats)
-$fithColor: hsla(0, 0%, 100%, 0.75); //(main paragraph)
+$fifthColor: hsla(0, 0%, 100%, 0.75); //(main paragraph)
 $sixthColor: hsla(0, 0%, 100%, 0.6); //(stat headings)
 
 //font-size
@@ -12,8 +12,30 @@ $sixthColor: hsla(0, 0%, 100%, 0.6); //(stat headings)
 html{
     font-size: 62.5%;
 }
+body{
+    background-color: $primaryColor;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
 
 //fonts
 
 $inter:'Inter', sans-serif;
 $lexendDeca:'Lexend Deca', sans-serif;
+@mixin title {
+    font-size: 3em;
+    color: $fourthColor;
+    font-family: $inter;
+}
+@mixin text {
+    font-size: 1.4em;
+    color: $fifthColor;
+    line-height: 1.7em;
+    text-transform: uppercase;
+    font-family: $lexendDeca;
+}
