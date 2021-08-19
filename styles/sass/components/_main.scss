@@ -1,6 +1,6 @@
 main{
     width: 100%;
-    padding: 2em 0em;
+    padding: 0 0em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,6 +9,7 @@ main{
 .container{
     width: 90%;
     height: auto;
+    margin: 2em 0em;
     background-color: $secondaryColor;
     display: flex;
     flex-direction:column ;
@@ -17,7 +18,7 @@ main{
     overflow: hidden;
     .img-color{
         width: 100%;
-        height: 20em;
+        height: 25em;
         background-image: url(https://scontent.fsal2-1.fna.fbcdn.net/v/t1.6435-9/238142742_104954165237484_7425805348977638302_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=730e14&_nc_ohc=fVK3y554a3EAX_E8OwD&_nc_oc=AQnqzcy9IOvupviSLDTbyobKwLbWnwIRSJmpS6klJgkmWVPVjnidikvRNlUUR2UHPp8&_nc_ht=scontent.fsal2-1.fna&oh=bfbc7ca34557247011fde901c4355eb5&oe=61427EE0);
         background-color: rgba(170,91,219,0.7);
         background-blend-mode: soft-light;
@@ -30,27 +31,29 @@ main{
         flex-direction: column;
         align-items: center;
         .container-description{
+            margin-top: 2em;
             font-family: $inter;
             width: 80%;
-            margin-top: 3em;
             max-width: 90%;
             display: flex;
             flex-direction: column;
             align-items: center;
             text-align: center;
             .main-title{
-                @include title;
-                margin: 0.5em 0em 0em 0em;
+                color: rgba(255, 255, 255, 0.75);
+                line-height: 1.3em;
+                font-size: 3em;
+                font-family: $inter;
                 span{
                     color: $thirdColor;
                 }
             }
             
-            .text{
-                @include text;
-                font-size: 1.7em;
-                font-family: $inter;
-                text-transform: none;
+            .text{            
+            line-height: 1.7em;
+            color: rgba(255, 255, 255, 0.75);
+            font-size: 1.7em;
+            font-family: "Inter", sans-serif;
             }
         }
         .stats{
