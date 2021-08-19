@@ -13,10 +13,10 @@ h1, h2, h3, h4, h5, h6 {
 
 main {
   width: 100%;
+  height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 2em 0em; }
+  justify-content: center; }
 
 .container {
   width: 90%;
@@ -36,49 +36,68 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
-  .container .container-description {
-    font-family: "Inter", sans-serif;
-    width: 80%;
-    margin-top: 3em;
-    max-width: 90%;
+  .container .textContainer {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center; }
-    .container .container-description .main-title {
-      font-size: 3em;
-      color: white;
+    align-items: center; }
+    .container .textContainer .container-description {
       font-family: "Inter", sans-serif;
-      margin: 0.5em 0em 0em 0em; }
-      .container .container-description .main-title span {
-        color: #aa5cdb; }
-    .container .container-description .text {
-      font-size: 1.4em;
-      color: rgba(255, 255, 255, 0.75);
-      line-height: 1.7em;
-      text-transform: uppercase;
-      font-family: "Lexend Deca", sans-serif;
-      font-size: 1.7em;
-      font-family: "Inter", sans-serif;
-      text-transform: none; }
-  .container .stats {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin: 2em 0em; }
-    .container .stats_item {
-      margin: 0.8em 0em; }
-    .container .stats .title {
-      font-size: 3em;
-      color: white;
-      font-family: "Inter", sans-serif;
-      margin: 0.25em 0em; }
-    .container .stats .text {
-      font-size: 1.4em;
-      color: rgba(255, 255, 255, 0.75);
-      line-height: 1.7em;
-      text-transform: uppercase;
-      font-family: "Lexend Deca", sans-serif;
-      margin: 0.4em 0em; }
+      width: 80%;
+      margin-top: 3em;
+      max-width: 90%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center; }
+      .container .textContainer .container-description .main-title {
+        font-size: 3em;
+        color: white;
+        font-family: "Inter", sans-serif;
+        margin: 0.5em 0em 0em 0em; }
+        .container .textContainer .container-description .main-title span {
+          color: #aa5cdb; }
+      .container .textContainer .container-description .text {
+        font-size: 1.4em;
+        color: rgba(255, 255, 255, 0.75);
+        line-height: 1.7em;
+        text-transform: uppercase;
+        font-family: "Lexend Deca", sans-serif;
+        font-size: 1.7em;
+        font-family: "Inter", sans-serif;
+        text-transform: none; }
+    .container .textContainer .stats {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin: 2em 0em; }
+      .container .textContainer .stats_item {
+        margin: 0.8em 0em; }
+      .container .textContainer .stats .title {
+        font-size: 3em;
+        color: white;
+        font-family: "Inter", sans-serif;
+        margin: 0.25em 0em; }
+      .container .textContainer .stats .text {
+        font-size: 1.4em;
+        color: rgba(255, 255, 255, 0.75);
+        line-height: 1.7em;
+        text-transform: uppercase;
+        font-family: "Lexend Deca", sans-serif;
+        margin: 0.4em 0em; }
+
+@media (min-width: 400px) {
+  .container .img-color {
+    height: 18em; } }
+@media (min-width: 800px) {
+  .container {
+    flex-direction: row; }
+
+  .img-color {
+    order: 2;
+    width: 50%; }
+
+  .textContainer {
+    order: 1;
+    width: 50%; } }
 
 /*# sourceMappingURL=styles.css.map */

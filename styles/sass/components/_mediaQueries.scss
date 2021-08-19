@@ -1,0 +1,20 @@
+@media (min-width:400px){
+    .container{
+        .img-color{
+            height: 18em;
+        }
+    }
+}
+@media (min-width:800px){
+    .container{
+        flex-direction: row;
+    }
+    .img-color{
+        order: 2;
+        width: 50%;
+    }
+    .textContainer{
+        order: 1;
+        width: 50%;
+    }
+}
