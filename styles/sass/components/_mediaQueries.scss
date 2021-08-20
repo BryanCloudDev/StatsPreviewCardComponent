@@ -43,6 +43,7 @@
 @media (min-width:800px){
     main{
         .container{
+            min-height: 56em;
             flex-direction: row;
             .img-color{
                 background-image: url(https://i.imgur.com/y7Btes9.jpg);
@@ -84,7 +85,7 @@
     main{
         .container{
             width: 90%;
-            max-width: 160em;
+            max-width: 150em;
             height: 47vh;
             .img-color{
                 height: 59em;
