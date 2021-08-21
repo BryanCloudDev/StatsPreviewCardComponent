@@ -150,10 +150,10 @@ main {
 @media (min-width: 1300px) {
   main .container {
     width: 90%;
-    max-width: 115rem; }
+    max-width: 115rem;
+    min-height: 43rem; }
     main .container .img-color {
-      height: 59em;
-      max-width: 50%; }
+      height: 42rem; }
     main .container .textContainer {
       max-width: 50%;
       flex-direction: column;
