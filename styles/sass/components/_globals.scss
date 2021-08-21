@@ -28,14 +28,15 @@ h1,h2,h3,h4,h5,h6{
 $inter:'Inter', sans-serif;
 $lexendDeca:'Lexend Deca', sans-serif;
 @mixin title {
-    font-size: 3em;
+    font-size: 2.5rem;
     color: $fourthColor;
     font-family: $inter;
 }
 @mixin text {
-    font-size: 1.4em;
+    font-size: 1.175rem;
     color: $sixthColor;
-    line-height: 1.7em;
     text-transform: uppercase;
-    font-family: $lexendDeca;
+    font-family: $inter;
+    font-weight: 400;
+    letter-spacing: 0.140rem;
 }

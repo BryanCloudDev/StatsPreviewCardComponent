@@ -1,24 +1,22 @@
 main{
     width: 100%;
-    padding: 0 0em;
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: auto;
 }
 .container{
-    width: 90%;
+    width: 85%;
     height: auto;
-    margin: 2em 0em;
+    margin: 2rem 0rem;
     background-color: $secondaryColor;
     display: flex;
     flex-direction:column ;
     align-items: center;
-    border-radius: 1.2em;
+    border-radius: 0.8rem;
     overflow: hidden;
     .img-color{
         width: 100%;
-        height: 25em;
+        height: 25rem;
         background-image: url(https://i.imgur.com/hTcFdjS.jpg);
         background-color: rgba(170,91,219,0.7);
         background-blend-mode: soft-light;
@@ -31,49 +29,46 @@ main{
         flex-direction: column;
         align-items: center;
         .container-description{
-            margin-top: 2em;
+            margin-top: 2rem;
             font-family: $inter;
             width: 80%;
-            max-width: 90%;
+            max-width: 45rem;
             display: flex;
             flex-direction: column;
             align-items: center;
             text-align: center;
             .main-title{
                 color: rgba(255, 255, 255, 0.75);
-                line-height: 1.3em;
-                font-size: 3em;
+                line-height: 3rem;
+                font-size: 3rem;
                 font-family: $inter;
                 span{
                     color: $thirdColor;
                 }
             }
-            
             .text{            
-            line-height: 1.7em;
+            line-height: 2.5rem;
             color: rgba(255, 255, 255, 0.75);
-            font-size: 1.7em;
+            font-size: 1.5rem;
             font-family: "Inter", sans-serif;
             }
         }
         .stats{
-                display: flex;
-                flex-direction: column;
-                text-align: center;
-                margin: 2em 0em;
-                &_item{
-                    margin: 0.8em 0em;
-                }
-                .title{
-                    @include title;
-                    margin: 0.25em 0em;
-                }
-                .text{
-                    @include text;
-                    margin: 0.4em 0em;
-                }
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin: 2.7rem 0rem;
+            &_item{
+                margin: 0.8rem 0rem;
+            }
+            .title{
+                @include title;
+                margin: 0.25rem 0rem;
+            }
+            .text{
+                @include text;
+                margin: 0.8rem 0rem;
+            }
         }
-    
     }
-    
 }
