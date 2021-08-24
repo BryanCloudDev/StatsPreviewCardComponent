@@ -30,11 +30,11 @@ Users should be able to:
 
 Desktop design
 
-![](https://i.imgur.com/nh6t6zC.png)
+![](https://i.imgur.com/6rzrKJc.png)
 
 Mobile design
 
-![](https://i.imgur.com/O0CH8YM.png)
+![](https://i.imgur.com/UYJd0WN.png)
 
 
 
