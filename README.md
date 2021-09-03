@@ -84,7 +84,7 @@ I am committed to keep improving my skills when naming classes and also how to m
 
 - Website - [bryancloud.dev](https://bryancloud.dev)
 - Frontend Mentor - [@bryan-cloud](https://www.frontendmentor.io/profile/bryan-cloud)
-- Twitter - [@bportillo701](https://twitter.com/bportillo701)
+- Twitter - [@BryanCloudDev](https://twitter.com/BryanCloudDev)
 
 
 ## Acknowledgments
