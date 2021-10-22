@@ -40,8 +40,8 @@ Mobile design
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [https://bryan-cloud.github.io/StatsPreviewCardComponent/](https://bryan-cloud.github.io/StatsPreviewCardComponent/)
+- Solution URL: [https://www.frontendmentor.io/solutions/stats-preview-component-card-using-flexbox-sass-and-html-oT9KGgdAP](https://www.frontendmentor.io/solutions/stats-preview-component-card-using-flexbox-sass-and-html-oT9KGgdAP)
+- Live Site URL: [https://bryanclouddev.github.io/StatsPreviewCardComponent/](https://bryanclouddev.github.io/StatsPreviewCardComponent/)
 
 ## My process
 
